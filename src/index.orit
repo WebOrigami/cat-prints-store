@@ -3,7 +3,7 @@
   @text: `
     <div id="grid">
     {{ @map _, =`
-      <a href="/prints/{{ _/id }}#">
+      <a href="/prints/{{ _/id }}.html#">
         <img src="/images/{{ _/image }}" alt="{{ _/name }}" class="thumbnail" />
       </a>
     ` }}
