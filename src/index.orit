@@ -1,7 +1,6 @@
 {{ page.orit({
   title: "Coffeeaardvark"
   @text: `
-    {{ snipcart.orit() }}
     {{ @map _, =`
       <section>
         <h2>{{ _/name }}</h2>
