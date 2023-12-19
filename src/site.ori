@@ -1,0 +1,5 @@
+{
+  assets
+  images
+  index.html = index.orit(products.yaml)
+}

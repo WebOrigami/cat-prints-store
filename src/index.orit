@@ -1,0 +1,21 @@
+{{ page.orit({
+  title: "Coffeeaardvark"
+  @text: `
+    {{ snipcart.orit() }}
+    {{ @map _, =`
+      <section>
+        <h2>{{ _/name }}</h2>
+        <img src="/images/{{ _/image }}" alt="{{ _/name }}"/>
+        <div>
+          <button class="snipcart-add-item"
+            data-item-id="{{ _/id }}"
+            data-item-price="29.99"
+            data-item-image="/images/{{ _/image }}"
+            data-item-name="{{ _/name }}">
+            Add to cart
+          </button>
+        </div>
+      </section>
+    ` }}
+  `
+})}}
