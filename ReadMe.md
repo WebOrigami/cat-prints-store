@@ -4,4 +4,4 @@ There are a number of online store service providers that allow static site auth
 
 The overall site structure is defined in [src/site.ori](src/site.ori). The script to add shopping cart integration is set up in [src/snipcart.orit] and uses a public API key.
 
-Create a copy of this project and play with it in a web-based editor: [Remix on Glitch](https://glitch.com/edit/#!/import/github/JanMiksovsky/coffeeaardvark). Note that the shopping cart is set up in a test mode and won't actually purchase anything.
+Create a copy of this project and play with it in a web-based editor: [Remix on Glitch](https://glitch.com/edit/#!/import/github/WebOrigami/coffeeaardvark). Note that the shopping cart is set up in a test mode and won't actually purchase anything.
