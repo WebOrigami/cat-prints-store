@@ -4,6 +4,13 @@
   "dependencies": {
     "@weborigami/origami": "0.0.38"
   },
+  "engines": {
+    "node": ">=16.14.2"
+  },
+  "license": "MIT",
+  "glitch": {
+    "projectType": "generated_static"
+  },
   "scripts": {
     "build": "ori @copy src/site.ori, @files/build",
     "start": "ori @serve @watch src, =@debug site.ori"
