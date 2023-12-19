@@ -2,4 +2,8 @@
   assets
   images
   index.html = index.orit(products.yaml)
+  prints = @map(products.yaml, {
+    keyMap: =_/id
+    valueMap: print.orit
+  })
 }
