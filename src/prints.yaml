@@ -7,9 +7,9 @@
 - id: setteeaardvark
   name: Setteeaardvark
   image: setteeaardvark.jpg
-- id: spilledcoffeeaardvark
-  name: Spilled coffeeaardvark
-  image: spilledcoffeeaardvark.jpg
+- id: spilledcoffee
+  name: Spilled coffee
+  image: spilledcoffee.jpg
 - id: toffeeaardvark
   name: Toffeeaardvark
   image: toffeeaardvark.jpg

@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "ori @copy src/site.ori, @files/build",
+    "buildSvg": "ori @svg src/site.ori > docs/site.svg",
     "start": "ori @serve @watch src, =@debug site.ori"
   }
 }
