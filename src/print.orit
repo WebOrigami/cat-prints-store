@@ -5,7 +5,7 @@
       <a href="/">Home</a>
     </header>
     <h2>{{ _/name }}</h2>
-    <img src="/images/{{ _/image }}" alt="{{ _/name }}"/>
+    <img src="/images/{{ _/image }}" alt="{{ _/name }}" class="large"/>
     <p>
       <button class="snipcart-add-item"
         data-item-id="{{ _/id }}"

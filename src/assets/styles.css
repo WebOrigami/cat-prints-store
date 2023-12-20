@@ -7,14 +7,35 @@ a {
   text-decoration: none;
 }
 
+a.imageLink {
+  display: inline-block;
+  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+  margin: 0 2rem 2rem 0;
+}
+
 img {
   border: 1px solid #eee;
-  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+  contain: paint;
   display: inline-block;
-  max-width: 800px;
+  max-width: 100%;
+  width: 800px;
 }
 
 img.thumbnail {
-  margin: 0 2rem 2rem 0;
   width: 400px;
+}
+
+/* Zoom whatever image is focused or hovered */
+a:focus img.thumbnail,
+a:hover img.thumbnail {
+  view-transition-name: zoomImage;
+}
+
+img.large {
+  view-transition-name: zoomImage;
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  mix-blend-mode: normal;
 }
