@@ -9,16 +9,20 @@ a {
 
 a.imageLink {
   display: inline-block;
-  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+  box-shadow: 0.2rem 0.2rem .5rem #ccc;
   margin: 0 2rem 2rem 0;
 }
 
 img {
   border: 1px solid #eee;
-  contain: paint;
-  display: inline-block;
+  display: block;
   max-width: 100%;
   width: 800px;
+}
+
+img.large {
+  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+  margin: 0 2rem 2rem 0;
 }
 
 img.thumbnail {
