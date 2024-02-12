@@ -1,17 +1,18 @@
-=page.ori({
-  title: _/name
+(_, id) =>  page.ori({
+  title: _/title
   @text: `
     <header>
       <a href="/">Home</a>
     </header>
-    <h2>{{ _/name }}</h2>
-    <img src="/images/{{ _/image }}" alt="{{ _/name }}" class="large"/>
+    <h2>{{ _/title }}</h2>
+    <img src="/full/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
+    <p>{{ _/artist }}, {{ _/year }}</p>
     <p>
       <button class="snipcart-add-item"
-        data-item-id="{{ _/id }}"
+        data-item-id="{{ id }}"
         data-item-price="29.99"
-        data-item-image="/images/{{ _/image }}"
-        data-item-name="{{ _/name }}">
+        data-item-image="/full/{{ id }}.jpg"
+        data-item-name="{{ _/title }}">
         Add to cart
       </button>
     </p>

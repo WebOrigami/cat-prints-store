@@ -9,11 +9,6 @@
     {{ snipcart.ori() }}
   </head>
   <body>
-    <!--
-    <header>
-        <button class="snipcart-customer-signin">My account</button>
-    </header>
-    -->
     {{ _/@text }}
   </body>
 </html>

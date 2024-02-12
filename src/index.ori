@@ -1,10 +1,11 @@
 =page.ori({
-  title: "Coffeeaardvark"
+  title: "Cat Prints 🐾"
   @text: `
-    <div id="grid">
-    {{ @map _, =`
-      <a href="/prints/{{ _/id }}.html#" class="imageLink">
-        <img src="/images/{{ _/image }}" alt="{{ _/name }}" class="thumbnail" />
+    <h1>Cat Prints 🐾</h1>
+    <div class="grid">
+    {{ @map _, (info, id) => `
+      <a href="/prints/{{ id }}.html#" class="imageLink">
+        <img src="/thumbnails/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
       </a>
     ` }}
     </div>

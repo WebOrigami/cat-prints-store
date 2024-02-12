@@ -1,18 +1,12 @@
 {
-  "name": "coffeeaardvark",
+  "name": "@weborigami/cat-prints-store",
   "type": "module",
   "dependencies": {
     "@weborigami/origami": "0.0.40"
   },
-  "engines": {
-    "node": ">=16.14.2"
-  },
   "license": "MIT",
-  "glitch": {
-    "projectType": "generated_static"
-  },
   "scripts": {
-    "build": "ori @copy src/site.ori, @files/build",
+    "build": "rm -r build; ori @copy src/site.ori, @files/build",
     "buildSvg": "ori @svg src/site.ori > docs/site.svg",
     "start": "ori @serve @watch src, =@debug site.ori"
   }

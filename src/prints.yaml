@@ -1,15 +1,49 @@
-- id: coffeeaardvark
-  name: Coffeeaardvark
-  image: coffeeaardvark.jpg
-- id: bookaardvark
-  name: Book Aardvark
-  image: bookaardvark.jpg
-- id: setteeaardvark
-  name: Setteeaardvark
-  image: setteeaardvark.jpg
-- id: spilledcoffee
-  name: Spilled coffee
-  image: spilledcoffee.jpg
-- id: toffeeaardvark
-  name: Toffeeaardvark
-  image: toffeeaardvark.jpg
+woman-with-a-cat:
+  title: Woman with a Cat
+  artist: Pierre-Auguste Renoir
+  year: 1875
+
+winter-cat-on-a-cushion:
+  title: "Winter: Cat on a Cushion"
+  artist: Théophile Steinlen
+  year: 1909
+
+the-large-cat:
+  title: The Large Cat
+  artist: Cornelis Visscher
+  year: 1657
+
+white-cat-and-butterflies:
+  title: White Cat and Butterflies
+  artist: Arthur Heyer
+  year: 1914
+
+honorable-mr-cat:
+  title: Honorable Mr. Cat
+  artist: Helen Hyde
+  year: 1903
+
+young-girl-with-a-cat:
+  title: Young Girl with a Cat
+  artist: Berthe Morisot
+  year: 1889
+
+the-little-writer:
+  title: The Little Writer
+  artist: Charles van den Eycken
+  year: 1913
+
+cat-pawing-at-goldfish:
+  title: Cat Pawing at Goldfish
+  artist: Isoda Koryusai
+  year: c. 1772
+
+cat-watching-a-spider:
+  title: Cat Watching a Spider
+  artist: Ōide Tōkō
+  year: c. 1890
+
+drei-katzen:
+  title: Drei Katzen
+  artist: Franz Marc
+  year: 1913

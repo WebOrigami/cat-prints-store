@@ -1,9 +1,10 @@
 {
   assets
-  images
   index.html = index.ori(prints.yaml)
   prints = @map(prints.yaml, {
-    keyMap: =`{{ _/id }}.html`
+    keyMap: =`{{ @key }}.html`
     valueMap: print.ori
   })
+  thumbnails = @map(images, @image/resize({ width: 400 }))
+  full = @map(images, @image/resize({ width: 1600 }))
 }
