@@ -13,7 +13,7 @@ rm -rf node_modules/@weborigami/async-tree
 rm -rf node_modules/@weborigami/language
 rm -rf node_modules/@weborigami/origami
 
-ln -s ~/Source/GraphOrigami/origami/types node_modules/@weborigami/types
-ln -s ~/Source/GraphOrigami/origami/async-tree node_modules/@weborigami/async-tree
-ln -s ~/Source/GraphOrigami/origami/language node_modules/@weborigami/language
-ln -s ~/Source/GraphOrigami/origami/origami node_modules/@weborigami/origami
+ln -s ~/Source/Origami/origami/types node_modules/@weborigami/types
+ln -s ~/Source/Origami/origami/async-tree node_modules/@weborigami/async-tree
+ln -s ~/Source/Origami/origami/language node_modules/@weborigami/language
+ln -s ~/Source/Origami/origami/origami node_modules/@weborigami/origami

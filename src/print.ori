@@ -1,4 +1,4 @@
-{{ page.orit({
+=page.ori({
   title: _/name
   @text: `
     <header>
@@ -16,4 +16,4 @@
       </button>
     </p>
   `
-}) }}
+})

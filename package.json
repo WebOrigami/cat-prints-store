@@ -2,7 +2,7 @@
   "name": "coffeeaardvark",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.38"
+    "@weborigami/origami": "0.0.40"
   },
   "engines": {
     "node": ">=16.14.2"

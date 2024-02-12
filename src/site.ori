@@ -1,9 +1,9 @@
 {
   assets
   images
-  index.html = index.orit(prints.yaml)
+  index.html = index.ori(prints.yaml)
   prints = @map(prints.yaml, {
     keyMap: =`{{ _/id }}.html`
-    valueMap: print.orit
+    valueMap: print.ori
   })
 }
