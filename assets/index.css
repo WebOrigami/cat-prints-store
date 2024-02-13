@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #7A6448, #5e492e);
+  color: #f9f4e3;
+  display: grid;
+  font-family: "Aleo", Helvetica, Arial, sans-serif;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wall {
+  align-items: center;
+  display: grid;
+  overflow-y: auto;
+  overscroll-behavior-y: none;
+  padding: 0 var(--padding);
+  padding-bottom: calc(2 * var(--padding))
+}
+
+.prints {
+  white-space: nowrap;
+}
+
+.prints > * {
+  width: 60vw;
+  max-width: 400px;
+  vertical-align: middle;
+}
+.prints > :not(:first-child) {
+  margin-left: 10vmax;
+}
+.prints > :last-child {
+  margin-right: 10vmax;
+}
+
+.imageLink:focus,
+.imageLink:hover {
+  /* Zoom whatever image is focused or hovered */
+  view-transition-name: zoomImage;
+}
+
+.imageLink:focus .print,
+.imageLink:hover .print {
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  display: inline-block;
+  white-space: normal;
+}

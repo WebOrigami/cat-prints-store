@@ -1,0 +1,116 @@
+/* Aleo font: https://fonts.google.com/specimen/Aleo */
+/* Color palette: https://www.colourlovers.com/palette/12163/working_humbly */
+
+@font-face {
+  font-display: fallback;
+  font-family: "Aleo";
+  font-style: bold;
+  font-weight: 700;
+  src: url("/assets/Aleo-Bold.ttf");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/Aleo-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #7A6448, #5e492e);
+  color: #f9f4e3;
+  font-family: "Aleo", Helvetica, Arial, sans-serif;
+  margin: 0;
+  --padding: 5vmin;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+a,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  background: #D4DDB1;
+  border: 1px solid #B1BA8E;
+  border-radius: 0.5rem;
+  color: #5e492e;
+  font-weight: bold;
+  padding: 0.75rem;
+}
+
+header,
+footer {
+  padding: var(--padding);
+}
+
+header a {
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+a.imageLink {
+  display: inline-block;
+}
+
+img {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  padding: 0 var(--padding);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.print {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  padding: var(--padding);
+  transition: box-shadow 0.25s;
+}
+
+.large {
+  margin: 2rem 0;
+  width: 800px;
+  view-transition-name: zoomImage;
+}
+
+.note {
+  padding-bottom: 4rem;
+  text-align: center;
+  text-wrap: balance;
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  mix-blend-mode: normal;
+}
