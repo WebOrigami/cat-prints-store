@@ -9,6 +9,11 @@
     {{ snipcart.ori() }}
   </head>
   <body>
+    <header>
+      <span class="logo">
+        <a href="/">Cat Prints</a> 🐾
+      </span>
+    </header>
     {{ _/@text }}
   </body>
 </html>

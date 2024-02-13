@@ -1,20 +1,22 @@
 (_, id) =>  page.ori({
   title: _/title
   @text: `
-    <header>
-      <a href="/">Home</a>
-    </header>
-    <h2>{{ _/title }}</h2>
-    <img src="/full/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
-    <p>{{ _/artist }}, {{ _/year }}</p>
-    <p>
-      <button class="snipcart-add-item"
-        data-item-id="{{ id }}"
-        data-item-price="29.99"
-        data-item-image="/full/{{ id }}.jpg"
-        data-item-name="{{ _/title }}">
-        Add to cart
-      </button>
-    </p>
+    <main>
+      <h1>{{ _/title }}</h1>
+      <img src="/full/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
+      <p>{{ _/artist }}, {{ _/year }}</p>
+      <p>
+        <button class="snipcart-add-item"
+          data-item-id="{{ id }}"
+          data-item-price="29.99"
+          data-item-image="/full/{{ id }}.jpg"
+          data-item-name="{{ _/title }}">
+          Add to cart
+        </button>
+      </p>
+      <p class="note">
+        (A shopping cart window will open, but won't actually purchase anything.)
+      </p>
+    </main>
   `
 })

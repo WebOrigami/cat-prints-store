@@ -1,13 +1,38 @@
 =page.ori({
   title: "Cat Prints 🐾"
   @text: `
-    <h1>Cat Prints 🐾</h1>
-    <div class="grid">
-    {{ @map _, (info, id) => `
-      <a href="/prints/{{ id }}.html#" class="imageLink">
-        <img src="/thumbnails/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
-      </a>
-    ` }}
+    <link rel="stylesheet" href="/assets/index.css" />
+    <div class="wall">
+      <div class="prints">
+        <div class="about">
+          <h2>Welcome</h2>
+          <p>
+            This project showcases the creation of a simple online store in the
+            <a href="https://weborigami.org/language">Origami language</a> for
+            site design.
+          </p>
+          <p>
+            The online shopping cart uses
+            <a href="https://snipcart.com">Snipcart</a> in test mode; no real
+            purchases can be made.
+          </p>
+          </p>
+            Because this is a static site, no monthly subscription fee is
+            required to host it. Snipcart charges a small commission for real
+            use; see their site for details.
+          </p>
+          <p>
+            Swipe right →
+            <br>
+            Tap to view
+          </p>
+        </div>
+        {{ @map _, (info, id) => `
+          <a href="/prints/{{ id }}.html#" class="imageLink">
+            <img src="/thumbnails/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
+          </a>
+        ` }}
+      </div>
     </div>
   `
 })
