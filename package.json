@@ -2,7 +2,7 @@
   "name": "@weborigami/cat-prints-store",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.40"
+    "@weborigami/origami": "https://gitpkg.now.sh/WebOrigami/origami/origami?64ab1d70"
   },
   "license": "MIT",
   "scripts": {

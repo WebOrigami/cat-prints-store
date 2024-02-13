@@ -1,5 +1,5 @@
 # Template for the page which shows a single print
-(_, id) =>  page.ori({
+(_, id) => page.ori({
   title: _/title
   @text: `
     {{ snipcart.ori() }}
