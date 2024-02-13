@@ -1,0 +1,15 @@
+# The Origami SVG diagrams currently show the entire structure of a site, which
+# is more than we want to show in a summary diagram in the README.md. For now
+# we manually define a simple structure so we can generate that summary SVG.
+
+assets: "Stylesheet, fonts, etc."
+index.html: "Home page showing all prints"
+prints:
+  three-cats.html: "Page for individual print"
+  young-girl-with-a-cat.html: "Page for individual print"
+thumbnails:
+  three-cats.jpg: "Thumbnail print image"
+  young-girl-with-a-cat.jpg: "Thumbnail print image"
+full:
+  three-cats.jpg: "Full-size print image"
+  young-girl-with-a-cat.jpg: "Full-size print image"

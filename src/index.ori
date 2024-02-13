@@ -1,3 +1,4 @@
+# Template for the main index page
 =page.ori({
   title: "Cat Prints 🐾 Store"
   @text: `

@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -r build; ori @copy src/site.ori, @files/build",
-    "buildSvg": "ori @svg src/site.ori > docs/site.svg",
+    "docs": "ori '@svg docs/diagram.yaml, { createLinks: false }' > docs/site.svg",
     "start": "ori @serve @watch src, =@debug site.ori"
   }
 }
