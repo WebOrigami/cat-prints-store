@@ -1,5 +1,5 @@
 =page.ori({
-  title: "Cat Prints 🐾"
+  title: "Cat Prints 🐾 Store"
   @text: `
     <link rel="stylesheet" href="/assets/index.css" />
     <div class="wall">
@@ -8,8 +8,7 @@
           <h2>Welcome</h2>
           <p>
             This project showcases the creation of a simple online store in the
-            <a href="https://weborigami.org/language">Origami language</a> for
-            site design.
+            <a href="https://weborigami.org/language">Origami</a> site design language.
           </p>
           <p>
             The online shopping cart uses
@@ -28,7 +27,7 @@
           </p>
         </div>
         {{ @map _, (info, id) => `
-          <a href="/prints/{{ id }}.html#" class="imageLink">
+          <a href="/prints/{{ id }}.html" class="imageLink">
             <img src="/thumbnails/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
           </a>
         ` }}

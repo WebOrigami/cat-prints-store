@@ -11,7 +11,7 @@
   <body>
     <header>
       <span class="logo">
-        <a href="/">Cat Prints</a> 🐾
+        <a href="/">Cat Prints {{ assets/paws.svg }} Store</a>
       </span>
     </header>
     {{ _/@text }}
