@@ -8,5 +8,5 @@ The overall site structure is defined in [src/site.ori](src/site.ori), and creat
 
 The script to add shopping cart integration is set up in [src/snipcart.orit](src/snipcart.orit) and uses a public API key.
 
-The public domain cat images come from the [National Gallery of Art](
+The public domain cat images come from the United States [National Gallery of Art](
 https://www.nga.gov/open-access-images.html), the [Art Institute of Chicago](https://www.artic.edu/collection), and [Wikimedia Commons](https://commons.wikimedia.org/).
