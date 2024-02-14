@@ -5,13 +5,13 @@
     {{ snipcart.ori() }}
     <main>
       <h1>{{ _/title }}</h1>
-      <img src="/full/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
+      <img src="/scaled/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
       <p>{{ _/artist }}, {{ _/year }}</p>
       <p>
         <button class="snipcart-add-item"
           data-item-id="{{ id }}"
           data-item-price="29.99"
-          data-item-image="/full/{{ id }}.jpg"
+          data-item-image="/scaled/{{ id }}.jpg"
           data-item-name="{{ _/title }}">
           Add to cart
         </button>

@@ -9,7 +9,6 @@
   # Pages for each invididual print
   prints = @map(prints.yaml, { extensions: "→html", valueMap: print.ori })
 
-  # Thumbnail and full-size images for each print
-  thumbnails = @map(images, @image/resize({ width: 400 }))
-  full = @map(images, @image/resize({ width: 1600 }))
+  # Images of the prints scaled to a consistent width
+  scaled = @map(images, @image/resize({ width: 1600 }))
 }

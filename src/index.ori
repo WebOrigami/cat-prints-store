@@ -29,7 +29,7 @@
         </div>
         {{ @map _, (info, id) => `
           <a href="/prints/{{ id }}.html" class="imageLink">
-            <img src="/thumbnails/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
+            <img src="/scaled/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
           </a>
         ` }}
       </div>
