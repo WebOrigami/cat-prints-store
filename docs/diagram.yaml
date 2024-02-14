@@ -3,13 +3,12 @@
 # we manually define a simple structure so we can generate that summary SVG.
 
 assets: "Stylesheet, fonts, etc."
-index.html: "Home page showing all prints"
+index.html: "Home page showing print gallery"
 prints:
+  cat-watching-a-spider.html: "Page for individual print"
   three-cats.html: "Page for individual print"
   young-girl-with-a-cat.html: "Page for individual print"
-thumbnails:
-  three-cats.jpg: "Thumbnail print image"
-  young-girl-with-a-cat.jpg: "Thumbnail print image"
-full:
-  three-cats.jpg: "Full-size print image"
-  young-girl-with-a-cat.jpg: "Full-size print image"
+scaled:
+  cat-watching-a-spider.jpg: "Print image"
+  three-cats.jpg: "Print image"
+  young-girl-with-a-cat.jpg: "Print image"
