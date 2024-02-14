@@ -62,20 +62,20 @@
 <polygon fill="#999999" stroke="#999999" points="239.91,-396.53 232.88,-400.79 236.19,-396.98 232.47,-397.44 232.47,-397.44 232.47,-397.44 236.19,-396.98 232.06,-394.09 239.91,-396.53 239.91,-396.53"/>
 <text text-anchor="middle" x="87.79" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">prints</text>
 </g>
-<!-- scaled -->
+<!-- artwork -->
 <g id="node8" class="node">
-<title>scaled</title>
-<g id="a_node8"><a xlink:href="scaled">
+<title>artwork</title>
+<g id="a_node8"><a xlink:href="artwork">
 <ellipse fill="white" stroke="#666666" cx="245.39" cy="-180" rx="5.5" ry="5.5"/>
 </a>
 </g>
 </g>
-<!-- &#45;&gt;scaled -->
+<!-- &#45;&gt;artwork -->
 <g id="edge7" class="edge">
-<title>&#45;&gt;scaled</title>
+<title>&#45;&gt;artwork</title>
 <path fill="none" stroke="#999999" d="M9.86,-440.27C35.27,-412.07 197.14,-232.44 236.01,-189.3"/>
 <polygon fill="#999999" stroke="#999999" points="241.15,-183.6 238.64,-191.43 238.64,-186.38 236.13,-189.17 236.13,-189.17 236.13,-189.17 238.64,-186.38 233.62,-186.91 241.15,-183.6 241.15,-183.6"/>
-<text text-anchor="middle" x="87.79" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">scaled</text>
+<text text-anchor="middle" x="87.79" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">artwork</text>
 </g>
 <!-- prints/cat&#45;watching&#45;a&#45;spider.html -->
 <g id="node5" class="node">
@@ -125,52 +125,52 @@
 <polygon fill="#999999" stroke="#999999" points="551.62,-350.76 544.7,-355.2 547.91,-351.31 544.2,-351.86 544.2,-351.86 544.2,-351.86 547.91,-351.31 543.71,-348.52 551.62,-350.76 551.62,-350.76"/>
 <text text-anchor="middle" x="438.84" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">young&#45;girl&#45;with&#45;a&#45;cat.html</text>
 </g>
-<!-- scaled/cat&#45;watching&#45;a&#45;spider.jpg -->
+<!-- artwork/cat&#45;watching&#45;a&#45;spider.jpg -->
 <g id="node9" class="node">
-<title>scaled/cat&#45;watching&#45;a&#45;spider.jpg</title>
-<g id="a_node9"><a xlink:href="scaled/cat-watching-a-spider.jpg" xlink:title="Print image\l">
-<polygon fill="white" stroke="#b3b3b3" points="644.81,-252 578.65,-252 578.65,-216 644.81,-216 644.81,-252"/>
-<text text-anchor="start" x="586.44" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">Print image</text>
+<title>artwork/cat&#45;watching&#45;a&#45;spider.jpg</title>
+<g id="a_node9"><a xlink:href="artwork/cat-watching-a-spider.jpg" xlink:title="Artwork image\l">
+<polygon fill="white" stroke="#b3b3b3" points="651.64,-252 571.82,-252 571.82,-216 651.64,-216 651.64,-252"/>
+<text text-anchor="start" x="579.78" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">Artwork image</text>
 </a>
 </g>
 </g>
-<!-- scaled&#45;&gt;scaled/cat&#45;watching&#45;a&#45;spider.jpg -->
+<!-- artwork&#45;&gt;artwork/cat&#45;watching&#45;a&#45;spider.jpg -->
 <g id="edge8" class="edge">
-<title>scaled&#45;&gt;scaled/cat&#45;watching&#45;a&#45;spider.jpg</title>
-<path fill="none" stroke="#999999" d="M251,-180.68C283.9,-185.56 484.42,-215.28 570.99,-228.11"/>
-<polygon fill="#999999" stroke="#999999" points="578.51,-229.22 570.59,-231.46 574.8,-228.67 571.09,-228.12 571.09,-228.12 571.09,-228.12 574.8,-228.67 571.58,-224.79 578.51,-229.22 578.51,-229.22"/>
+<title>artwork&#45;&gt;artwork/cat&#45;watching&#45;a&#45;spider.jpg</title>
+<path fill="none" stroke="#999999" d="M251,-180.68C283.06,-185.43 474.2,-213.76 564.08,-227.09"/>
+<polygon fill="#999999" stroke="#999999" points="571.67,-228.21 563.76,-230.45 567.96,-227.66 564.25,-227.11 564.25,-227.11 564.25,-227.11 567.96,-227.66 564.75,-223.77 571.67,-228.21 571.67,-228.21"/>
 <text text-anchor="middle" x="438.84" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00">cat&#45;watching&#45;a&#45;spider.jpg</text>
 </g>
-<!-- scaled/three&#45;cats.jpg -->
+<!-- artwork/three&#45;cats.jpg -->
 <g id="node10" class="node">
-<title>scaled/three&#45;cats.jpg</title>
-<g id="a_node10"><a xlink:href="scaled/three-cats.jpg" xlink:title="Print image\l">
-<polygon fill="white" stroke="#b3b3b3" points="644.81,-144 578.65,-144 578.65,-108 644.81,-108 644.81,-144"/>
-<text text-anchor="start" x="586.44" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">Print image</text>
+<title>artwork/three&#45;cats.jpg</title>
+<g id="a_node10"><a xlink:href="artwork/three-cats.jpg" xlink:title="Artwork image\l">
+<polygon fill="white" stroke="#b3b3b3" points="651.64,-144 571.82,-144 571.82,-108 651.64,-108 651.64,-144"/>
+<text text-anchor="start" x="579.78" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">Artwork image</text>
 </a>
 </g>
 </g>
-<!-- scaled&#45;&gt;scaled/three&#45;cats.jpg -->
+<!-- artwork&#45;&gt;artwork/three&#45;cats.jpg -->
 <g id="edge9" class="edge">
-<title>scaled&#45;&gt;scaled/three&#45;cats.jpg</title>
-<path fill="none" stroke="#999999" d="M251,-179.32C283.9,-174.44 484.42,-144.72 570.99,-131.89"/>
-<polygon fill="#999999" stroke="#999999" points="578.51,-130.78 571.58,-135.21 574.8,-131.33 571.09,-131.88 571.09,-131.88 571.09,-131.88 574.8,-131.33 570.59,-128.54 578.51,-130.78 578.51,-130.78"/>
+<title>artwork&#45;&gt;artwork/three&#45;cats.jpg</title>
+<path fill="none" stroke="#999999" d="M251,-179.32C283.06,-174.57 474.2,-146.24 564.08,-132.91"/>
+<polygon fill="#999999" stroke="#999999" points="571.67,-131.79 564.75,-136.23 567.96,-132.34 564.25,-132.89 564.25,-132.89 564.25,-132.89 567.96,-132.34 563.76,-129.55 571.67,-131.79 571.67,-131.79"/>
 <text text-anchor="middle" x="438.84" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">three&#45;cats.jpg</text>
 </g>
-<!-- scaled/young&#45;girl&#45;with&#45;a&#45;cat.jpg -->
+<!-- artwork/young&#45;girl&#45;with&#45;a&#45;cat.jpg -->
 <g id="node11" class="node">
-<title>scaled/young&#45;girl&#45;with&#45;a&#45;cat.jpg</title>
-<g id="a_node11"><a xlink:href="scaled/young-girl-with-a-cat.jpg" xlink:title="Print image\l">
-<polygon fill="white" stroke="#b3b3b3" points="644.81,-36 578.65,-36 578.65,0 644.81,0 644.81,-36"/>
-<text text-anchor="start" x="586.44" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">Print image</text>
+<title>artwork/young&#45;girl&#45;with&#45;a&#45;cat.jpg</title>
+<g id="a_node11"><a xlink:href="artwork/young-girl-with-a-cat.jpg" xlink:title="Artwork image\l">
+<polygon fill="white" stroke="#b3b3b3" points="651.64,-36 571.82,-36 571.82,0 651.64,0 651.64,-36"/>
+<text text-anchor="start" x="579.78" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">Artwork image</text>
 </a>
 </g>
 </g>
-<!-- scaled&#45;&gt;scaled/young&#45;girl&#45;with&#45;a&#45;cat.jpg -->
+<!-- artwork&#45;&gt;artwork/young&#45;girl&#45;with&#45;a&#45;cat.jpg -->
 <g id="edge10" class="edge">
-<title>scaled&#45;&gt;scaled/young&#45;girl&#45;with&#45;a&#45;cat.jpg</title>
-<path fill="none" stroke="#999999" d="M250.5,-177.8C266.75,-169.15 328.2,-136.7 380.21,-113 446.39,-82.84 524.99,-51.35 571.21,-33.27"/>
-<polygon fill="#999999" stroke="#999999" points="578.34,-30.48 572.58,-36.35 574.85,-31.85 571.35,-33.21 571.35,-33.21 571.35,-33.21 574.85,-31.85 570.13,-30.07 578.34,-30.48 578.34,-30.48"/>
+<title>artwork&#45;&gt;artwork/young&#45;girl&#45;with&#45;a&#45;cat.jpg</title>
+<path fill="none" stroke="#999999" d="M250.5,-177.8C266.75,-169.15 328.2,-136.7 380.21,-113 443.34,-84.23 517.78,-54.25 564.62,-35.85"/>
+<polygon fill="#999999" stroke="#999999" points="571.61,-33.11 565.86,-38.99 568.12,-34.48 564.63,-35.85 564.63,-35.85 564.63,-35.85 568.12,-34.48 563.4,-32.7 571.61,-33.11 571.61,-33.11"/>
 <text text-anchor="middle" x="438.84" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">young&#45;girl&#45;with&#45;a&#45;cat.jpg</text>
 </g>
 </g>

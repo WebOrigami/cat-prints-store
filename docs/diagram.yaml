@@ -8,7 +8,7 @@ prints:
   cat-watching-a-spider.html: "Page for individual print"
   three-cats.html: "Page for individual print"
   young-girl-with-a-cat.html: "Page for individual print"
-scaled:
-  cat-watching-a-spider.jpg: "Print image"
-  three-cats.jpg: "Print image"
-  young-girl-with-a-cat.jpg: "Print image"
+artwork:
+  cat-watching-a-spider.jpg: "Artwork image"
+  three-cats.jpg: "Artwork image"
+  young-girl-with-a-cat.jpg: "Artwork image"
