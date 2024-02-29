@@ -1,18 +1,18 @@
-# Template for the page which shows a single print
-(_, id) => page.ori({
-  title: _/title
+// Template for the page which shows a single print
+(info, id) => page.ori({
+  title: info/title
   @text: `
-    {{ snipcart.ori() }}
+    ${ snipcart.ori() }
     <main>
-      <h1>{{ _/title }}</h1>
-      <img src="/artwork/{{ id }}.jpg" alt="{{ _/title }}" class="print large"/>
-      <p>{{ _/artist }}, {{ _/year }}</p>
+      <h1>${ info/title }</h1>
+      <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print large"/>
+      <p>${ info/artist }, ${ info/year }</p>
       <p>
         <button class="snipcart-add-item"
-          data-item-id="{{ id }}"
+          data-item-id="${ id }"
           data-item-price="29.99"
-          data-item-image="/artwork/{{ id }}.jpg"
-          data-item-name="{{ _/title }}">
+          data-item-image="/artwork/${ id }.jpg"
+          data-item-name="${ info/title }">
           Add to cart
         </button>
       </p>

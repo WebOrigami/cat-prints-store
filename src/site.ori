@@ -1,14 +1,14 @@
-# Top-level site definition for the Cat Prints Store site.
+// Top-level site definition for the Cat Prints Store site.
 {
-  # Folder with stylesheets, fonts, etc.
+  // Folder with stylesheets, fonts, etc.
   assets
 
-  # Home page shows thumbnails of all the prints
+  // Home page shows thumbnails of all the prints
   index.html = index.ori(prints.yaml)
 
-  # Pages for each invididual print
+  // Pages for each invididual print
   prints = @map(prints.yaml, { extensions: "→html", valueMap: print.ori })
 
-  # Images of the print art scaled to a consistent width
+  // Images of the print art scaled to a consistent width
   artwork = @map(images, @image/resize({ width: 1600 }))
 }

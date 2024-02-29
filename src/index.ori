@@ -1,5 +1,5 @@
-# Template for the main index page
-=page.ori({
+// Template for the main index page
+(prints) => page.ori({
   title: "Cat Prints 🐾 Store"
   @text: `
     <link rel="stylesheet" href="/assets/index.css" />
@@ -8,7 +8,7 @@
         <div class="about">
           <h2>Welcome</h2>
           <p>
-            This project showcases the creation of a simple online store in the
+            This project showcases the creation of a small online store in the
             <a href="https://weborigami.org/language">Origami</a> site design language.
             <a href="https://github.com/WebOrigami/cat-prints-store">View source</a>
           </p>
@@ -28,11 +28,11 @@
             Tap to view
           </p>
         </div>
-        {{ @map _, (info, id) => `
-          <a href="/prints/{{ id }}.html" class="imageLink">
-            <img src="/artwork/{{ id }}.jpg" alt="{{ info/title }}" class="print thumbnail" />
+        ${ @map prints, (info, id) => `
+          <a href="/prints/${ id }.html" class="imageLink">
+            <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print thumbnail" />
           </a>
-        ` }}
+        ` }
       </div>
     </div>
   `

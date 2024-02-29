@@ -1,7 +1,7 @@
-# Return the Snipcart script, inlining the API key from api.public.key.
+// Return the Snipcart script, inlining the API key from api.public.key.
 =`<script>
   window.SnipcartSettings = {
-    publicApiKey: "{{ api.public.key }}",
+    publicApiKey: "${ api.public.key }",
     loadStrategy: "on-user-interaction",
   };
 

@@ -1,20 +1,20 @@
-# Base template used for all pages
-=`<!DOCTYPE html>
+// Base template used for all pages
+(page) => `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="view-transition" content="same-origin" />
-    <title>{{ _/title }}</title>
+    <title>${ page/title }</title>
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
     <header>
       <span class="logo">
-        <a href="/">Cat Prints {{ assets/paws.svg }} Store</a>
+        <a href="/">Cat Prints ${ assets/paws.svg } Store</a>
       </span>
     </header>
-    {{ _/@text }}
+    ${ page/@text }
   </body>
 </html>
 `
