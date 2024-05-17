@@ -10,5 +10,5 @@
   prints = @map(prints.yaml, { extension: "→html", value: print.ori })
 
   // Images of the print art scaled to a consistent width
-  artwork = @map(images, @image/resize({ width: 1600 }))
+  artwork = @map(images, @image/resizeFn({ width: 1600 }))
 }

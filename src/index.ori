@@ -28,11 +28,11 @@
             Tap to view
           </p>
         </div>
-        ${ @map prints, (info, id) => `
+        ${ @map(prints, (info, id) => `
           <a href="/prints/${ id }.html" class="imageLink">
             <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print thumbnail" />
           </a>
-        ` }
+        `) }
       </div>
     </div>
   `
