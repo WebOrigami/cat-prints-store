@@ -1,8 +1,8 @@
 // Template for the main index page
 (prints) => page.ori({
   title: "Cat Prints 🐾 Store"
-  @text: `
-    <link rel="stylesheet" href="/assets/index.css" />
+  @text: @indent`
+    <link rel="stylesheet" href="/assets/index.css">
     <div class="wall">
       <div class="prints">
         <div class="about">
@@ -28,9 +28,9 @@
             Tap to view
           </p>
         </div>
-        ${ @map(prints, (info, id) => `
+        ${ @map(prints, (info, id) => @indent`
           <a href="/prints/${ id }.html" class="imageLink">
-            <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print thumbnail" />
+            <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print thumbnail">
           </a>
         `) }
       </div>
