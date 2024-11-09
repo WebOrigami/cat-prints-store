@@ -2,12 +2,12 @@
   "name": "@weborigami/cat-prints-store",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.70"
+    "weborigami/origami": "0.0.70"
   },
   "license": "MIT",
   "scripts": {
-    "build": "ori '@copy @static(src/site.ori), @clean @files/build'",
-    "docs": "ori '@svg docs/diagram.yaml, { createLinks: false }' > docs/site.svg",
-    "start": "ori @serve @watch src, =@debug site.ori"
+    "build": "ori 'copy static(src/site.ori), clean files:build'",
+    "docs": "ori 'svg docs/diagram.yaml, { createLinks: false }' > docs/site.svg",
+    "start": "ori serve watch src, =debug site.ori"
   }
 }

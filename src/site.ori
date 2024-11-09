@@ -7,8 +7,8 @@
   index.html = index.ori(prints.yaml)
 
   // Pages for each invididual print
-  prints/ = @map(prints.yaml, { extension: "→html", value: print.ori })
+  prints/ = map(prints.yaml, { extension: "→html", value: print.ori })
 
   // Images of the print art scaled to a consistent width
-  artwork/ = @map(images, @image/resizeFn({ width: 1600 }))
+  artwork/ = map(images, =image:resize(_, { width: 1600 }))
 }

@@ -1,7 +1,7 @@
 // Template for the page which shows a single print
 (info, id) => page.ori({
   title: info/title
-  @text: @indent`
+  @text: indent`
     ${ snipcart.ori() }
     <main>
       <h1>${ info/title }</h1>
