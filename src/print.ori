@@ -1,17 +1,17 @@
 // Template for the page which shows a single print
-(info, id) => page.ori({
+(info, idSlash) => page.ori({
   title: info/title
   @text: indent`
     ${ snipcart.ori() }
     <main>
       <h1>${ info/title }</h1>
-      <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print large">
+      <img src="/artwork/${ slash/remove(idSlash) }.jpg" alt="${ info/title }" class="print large">
       <p>${ info/artist }, ${ info/year }</p>
       <p>
         <button class="snipcart-add-item"
-          data-item-id="${ id }"
+          data-item-id="${ slash/remove(idSlash) }"
           data-item-price="29.99"
-          data-item-image="/artwork/${ id }.jpg"
+          data-item-image="/artwork/${ slash/remove(idSlash) }.jpg"
           data-item-name="${ info/title }">
           Add to cart
         </button>

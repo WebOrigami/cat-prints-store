@@ -8,6 +8,6 @@
   "scripts": {
     "build": "ori 'copy static(src/site.ori), clear files:build'",
     "docs": "ori 'svg docs/diagram.yaml, { createLinks: false }' > docs/site.svg",
-    "start": "ori serve watch src, =debug site.ori"
+    "start": "ori serve watch src, =debug src/site.ori"
   }
 }

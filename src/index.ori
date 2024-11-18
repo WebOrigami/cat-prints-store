@@ -28,9 +28,9 @@
             Tap to view
           </p>
         </div>
-        ${ map(prints, (info, id) => indent`
-          <a href="/prints/${ id }.html" class="imageLink">
-            <img src="/artwork/${ id }.jpg" alt="${ info/title }" class="print thumbnail">
+        ${ map(prints, (info, idSlash) => indent`
+          <a href="/prints/${ slash/remove(idSlash) }.html" class="imageLink">
+            <img src="/artwork/${ slash/remove(idSlash) }.jpg" alt="${ info/title }" class="print thumbnail">
           </a>
         `) }
       </div>
