@@ -11,7 +11,7 @@
   <body>
     <header>
       <span class="logo">
-        <a href="/">Cat Prints ${ <assets/paws.svg> } Store</a>
+        <a href="/">Cat Prints ${ assets/paws.svg } Store</a>
       </span>
     </header>
     ${ page._body }

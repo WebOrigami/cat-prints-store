@@ -1,14 +1,14 @@
 // Top-level site definition for the Cat Prints Store site.
 {
   // Folder with stylesheets, fonts, etc.
-  <assets>
+  assets/
 
   // Home page shows thumbnails of all the prints
-  index.html = <index.jse>(<prints.yaml>)
+  index.html = index.jse(prints.yaml)
 
   // Pages for each invididual print
-  prints/ = Tree.map(<prints.yaml>, { extension: "/→.html", value: <print.jse> })
+  prints/ = Tree.map(prints.yaml, { extension: "/→.html", value: print.jse })
 
   // Images of the print art scaled to a consistent width
-  artwork/ = Tree.map(<images>, (image) => Origami.image.resize(image, { width: 1600 }))
+  artwork/ = Tree.map(images/, (image) => Origami.image.resize(image, { width: 1600 }))
 }

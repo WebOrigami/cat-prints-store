@@ -2,7 +2,7 @@
 Tree.indent`
   <script>
     window.SnipcartSettings = {
-      publicApiKey: "${ <api.public.key> }",
+      publicApiKey: "${ api.public.key }",
       loadStrategy: "on-user-interaction",
     };
 
