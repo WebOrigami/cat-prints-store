@@ -1,5 +1,5 @@
 // Template for the main index page
-(prints) => page.jse({
+(prints) => page.ori({
   title: "Cat Prints 🐾 Store"
   _body: Tree.indent`
     <link rel="stylesheet" href="/assets/index.css">
